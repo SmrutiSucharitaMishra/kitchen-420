@@ -26,7 +26,7 @@ const Header = () => {
         color={"goldenrod"}
         variant="h6"
         component="div"
-        sx={{ flexGrow: 1, my: 2 }}
+        sx={{ flexGrow: 1, my: 1 }}
       >
       <FastfoodIcon/>
       KITCHEN 420
@@ -54,7 +54,7 @@ const Header = () => {
   return (
     <>
       <Box>
-        <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+        <AppBar component={"nav"} sx={{ bgcolor: "#1A1A22" }}>
           <Toolbar>
             <IconButton
               color="inherit"

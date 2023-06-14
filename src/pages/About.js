@@ -7,7 +7,7 @@ const About = () => {
     <Layout>
       <Box
         sx={{
-          my: 15,
+          my: 3,
           textAlign: "center",
           p: 2,
           "& h4": {
@@ -26,7 +26,7 @@ const About = () => {
           },
         }}
       >
-        <Typography variant="h4">Welcome To My Resturant</Typography>
+        <Typography variant="h2">Welcome To KITCHEN 420</Typography>
         <p>
           A restaurant is an establishment that prepares and serves food and
           beverages to customers. It is a place where people can dine in and
@@ -67,20 +67,7 @@ const About = () => {
           their offerings.
         </p>
         <br />
-        <p>
-          It is an establishment where people can enjoy prepared meals
-          and beverages in exchange for payment. Restaurants vary in terms of
-          cuisine, ambiance, and service style. They provide a convenient and
-          social dining experience for individuals, families, and groups.
-          Restaurants may specialize in specific types of cuisine, such as
-          Italian, Chinese, or Mexican, while others offer a diverse menu with a
-          range of options. The atmosphere and decor of a restaurant can vary,
-          from casual and relaxed to elegant and formal. Customers can expect to
-          be served by waitstaff who take orders, deliver food and beverages,
-          and provide assistance throughout the dining experience. Overall,
-          restaurants play a significant role in culinary culture, offering a
-          place for people to gather, celebrate, and enjoy delicious food.
-        </p>
+     
       </Box>
     </Layout>
   );

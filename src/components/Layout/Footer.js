@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <>
       <Box
-        sx={{ textAlign: "center", bgcolor: "#1A1A19", color: "white", p: 3 }}
+        sx={{ textAlign: "center", bgcolor: "#1A1A22", color: "white", p: 0.5 }}
       >
         <Box
           sx={{
-            my: 3,
+            my: 1,
             "& svg": {
-              fontSize: "60px",
+              fontSize: "30px",
               cursor: "pointer",
               mr: 2,
             },
@@ -35,7 +35,7 @@ const Footer = () => {
           variant="h5"
           sx={{
             "@media (max-width:600px)": {
-              fontSize: "1rem",
+              fontSize: ".25rem",
             },
           }}
         >

@@ -18,8 +18,8 @@ import {
 const Contact = () => {
   return (
     <Layout>
-      <Box sx={{ my: 5, ml: 10, "& h4": { fontWeight: "bold", mb: 2 } }}>
-        <Typography variant="h4">Contact My Resturant</Typography>
+      <Box sx={{ my: 3, ml: 5, "& h4": { fontWeight: "bold", mb: 1 } }}>
+        <Typography variant="h3">Contact KITCHEN 420</Typography>
         <p>
           A restaurant is a place where people go to enjoy meals prepared and
           served by professionals. It is a popular social gathering spot where
@@ -40,7 +40,7 @@ const Contact = () => {
         sx={{
           m: 3,
           width: "600px",
-          ml: 10,
+          ml: 5,
           "@media (max-width:600px)": {
             width: "300px",
           },
